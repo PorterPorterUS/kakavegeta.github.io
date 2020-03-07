@@ -1,1 +1,12 @@
 theme: jekyll-theme-minimal
+
+# --- General options --- #
+
+# Name of website
+title: A Blog
+
+# Short description of your site
+description: I have nothing to lose
+
+navbar-links:
+  About Me: "aboutme"
