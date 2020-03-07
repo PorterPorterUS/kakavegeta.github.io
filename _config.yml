@@ -6,5 +6,7 @@ title: A Blog
 # Short description of your site
 description: I have nothing to lose
 
+markdown: kramdown
+
 navbar-links:
   About Me: "aboutme"
