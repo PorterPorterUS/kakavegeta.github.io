@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Link analysis and web search"
 categories: networks analysis
 ---
