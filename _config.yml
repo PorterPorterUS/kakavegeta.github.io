@@ -1,12 +1,11 @@
 # --- General options --- #
 
 # Name of website
-title: A Blog
+title: Akira
 
 # Short description of your site
-description: I have nothing to lose
+description: I know nothing...
 
 markdown: kramdown
 
-navbar-links:
-  About Me: "aboutme"
+theme: minimal
