@@ -30,4 +30,3 @@ Load balancers can route traffic based on various metrics, including:
   Layer 7 load balancers look at application layer to decide how to distribute request. This can involve content in the header, message, and cookies. Layer 7 load balancer terminate network traffic, read message, make a load-balancing decision, then opens a connection to selected server. For example, a layer 7 load balancer can direct video traffic to servers that host videos while directing more sensitive user billing traffic to security-hardened servers. 
 
 
-
