@@ -1,6 +1,12 @@
+---
+layout: post
+author: Akira
+title: "size() return unsigned int --- record a stupid bug I made"
+tags: c++ leetcode
+---
+
+
 ### One notification about .size() in c++
-
-
 
 Today I made a stupid mistake when doing leetcode exercises... Just a record to avoid falling into the pit again...
 

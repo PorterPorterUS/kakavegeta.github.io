@@ -7,4 +7,4 @@ title: Akira
 description: I know nothing...
 
 markdown: kramdown
-theme: jekyll-theme-minimal
+remote_theme: pmarsceill/just-the-docs
