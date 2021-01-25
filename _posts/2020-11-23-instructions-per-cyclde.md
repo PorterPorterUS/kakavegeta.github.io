@@ -2,8 +2,8 @@
 layout: post
 author: Akira
 title: "Instructions Per Cycle"
-tags: architecture os
-categories: Computer-Organization
+tags: ["architecture", "operating system"] 
+categories: "computer organization"
 ---
 
 This article tries to clarify some basic concepts concerning to performance of processor. I am always confused about that :< ...
