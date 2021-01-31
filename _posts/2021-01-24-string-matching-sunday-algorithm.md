@@ -3,7 +3,7 @@ layout: post
 author: Akira
 title: "Sunday algorithm"
 tags: "string matching"
-categories: "string matching"
+categories: ["string matching"]
 ---
 {% include lib/mathjax.html %}
 

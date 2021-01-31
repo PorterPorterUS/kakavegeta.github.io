@@ -3,7 +3,7 @@ layout: post
 author: Akira
 title: "Shift-And Algorithm"
 tags: "string matching"
-categories: "string matching"
+categories: ["string matching"]
 ---
 {% include lib/mathjax.html %}
 
