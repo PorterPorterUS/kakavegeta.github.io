@@ -92,10 +92,10 @@ a b c d e g h d e f j  k  l
       d e f
 0 1 2 3 4 5 6 7 8 9 10 11 12.
 
-Now 'd'(3) and 'e'(4) are matched, but 'g' is unmatched. Again, investigate whether 'h' can be matched. 
-Notice that there is no 'h' in pattern, we need to move pattern 4 chars (4 comes from the fact that 'h' does 
-not appear in pattern, so it can be counted backward as 4th element in pattern) to index 7 , the next 
-position of 'h'. Aha, we find answer!
+Now 'd'(3) and 'e'(4) are matched, but 'g' is unmatched. Again, investigate whether 'h' 
+can be matched. Notice that there is no 'h' in pattern, we need to move pattern 4 chars 
+(4 comes from the fact that 'h' does not appear in pattern, so it can be counted backward 
+as 4th element in pattern) to index 7 , the next position of 'h'. Aha, we find answer!
               y     
 a b c d e g h d e f j  k  l
               d e f
