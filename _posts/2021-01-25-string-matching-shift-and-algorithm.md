@@ -51,13 +51,13 @@ p     : 0 0 0 0 0 0
     ^
 a b c d e f e g d j k l
 d['c']: 0 0 0 0 0 0 
-p : 0 0 0 0 0 0 
+p     : 0 0 0 0 0 0 
 
       ^
 a b c d e f e g d j k l
 d['d']            : 1 0 0 0 0 1 
 p<<1 | 1          : 0 0 0 0 0 1
-p<<1 | 1 & d['e'] : 0 0 0 0 0 1
+p<<1 | 1 & d['d'] : 0 0 0 0 0 1
 
         ^
 a b c d e f e g d j k l
