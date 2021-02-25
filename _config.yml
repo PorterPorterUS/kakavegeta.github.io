@@ -4,7 +4,9 @@
 title: Akira
 
 # Short description of your site
-description: I know nothing...
+description: Ko No Dio Da !!! 
 
 markdown: kramdown
-remote_theme: pmarsceill/just-the-docs
+#remote_theme: pmarsceill/just-the-docs
+
+theme: jekyll-theme-hacker
