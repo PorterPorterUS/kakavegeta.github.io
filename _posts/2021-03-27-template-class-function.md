@@ -158,7 +158,7 @@ public:
        return obj(std::forward<ARGS>(args)...);
     }
 private:
-    C &obj;
+    C obj;
 };
 
 template<typename T, typename ...ARGS> class function;
