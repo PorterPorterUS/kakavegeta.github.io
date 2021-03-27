@@ -1,8 +1,8 @@
 ---
 layout: post
 author: Akira
-title: "Caching"
-tags: architecture os
+title: "Simple Implement of Class Template std::function"
+tags: c++
 
 ---
 
