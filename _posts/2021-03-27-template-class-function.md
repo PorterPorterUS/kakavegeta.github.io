@@ -111,7 +111,7 @@ public:
     function(T (*ptr)(ARGS...)) : fptr(new Func<T, ARGS...>(ptr)) {}
 
     template<typename C>
-    function(C &&obj) : fptr(new FuncObj<C, T, ARGS...>(obj)) {};
+    function(C obj) : fptr(new FuncObj<C, T, ARGS...>(obj)) {};
 
     T operator()(ARGS ...args) {
         return fptr->run(std::forward<ARGS>(args)...);
@@ -168,7 +168,7 @@ public:
     function(T (*ptr)(ARGS...)) : fptr(new Func<T, ARGS...>(ptr)) {}
 
     template<typename C>
-    function(C &&obj) : fptr(new FuncObj<C, T, ARGS...>(obj)) {};
+    function(C obj) : fptr(new FuncObj<C, T, ARGS...>(obj)) {};
 
     T operator()(ARGS ...args) {
         return fptr->run(std::forward<ARGS>(args)...);
